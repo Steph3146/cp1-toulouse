@@ -6,8 +6,16 @@ thirdAngle(90, 30) doit renvoyer 60
 thirdAngle(20, 80) doit renvoyer 80
 */
 
+const a = 90;
+const b = 60;
+const total = 180;
+/*const c = total - (sum(90 + 60))*/;
+
 function thirdAngle(a, b) {
-  // Your code here !
+  return c = total - (a + b)
 }
+console.log(180 - (90 + 60));
 
 module.exports = thirdAngle;
+
+

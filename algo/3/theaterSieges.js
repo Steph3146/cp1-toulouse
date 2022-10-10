@@ -16,11 +16,26 @@ exemple :
   ['26-1', '26-2', '26-3', ..., '26-100']
 ] 
 */
+const columns = [1, 2, ... 26]; 
+const siegeColumns = [1, 2, ... 100 ];
+/*theaterSeats = [columns[i] "-" siegeColumns[i]];*/
 
 function theaterSieges() {
-  // Your code here !
+  for (let i = 0; i<columns.length; i++ ){
+    console.log([i])
+  }
+  for (let j = 0;  j<siegeColumns.length; j++) {
+    console.log([j]);  
+  }
+}
+console.log($[i]-$[j]);
+/*function theaterSieges() {
+  columns.forEach(element => console.log(element)); {
+    return columns.forEach(element => )
+  };
 }
 
 console.log(theaterSieges());
 
 module.exports = theaterSieges;
+/*return columns[i] + siegeColumns[i]// Your code here !*/
